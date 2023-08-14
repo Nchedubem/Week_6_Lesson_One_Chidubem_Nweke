@@ -1,0 +1,42 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #taskForm {
+    display: flex;
+    margin-bottom: 16px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  #addTaskBtn {
+    padding: 8px;
+  }
+  
+  .taskItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .taskName {
+    flex: 1;
+  }
+  
+  .taskActions {
+    margin-left: 8px;
+  }
+  
+  .deleteBtn {
+    color: red;
+    cursor: pointer;
+  }
