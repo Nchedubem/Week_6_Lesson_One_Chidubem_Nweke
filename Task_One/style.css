@@ -1,7 +1,8 @@
 .container {
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #0a6ea8;
   }
   
   h1 {
@@ -37,6 +38,6 @@
   }
   
   .deleteBtn {
-    color: red;
+    color: rgb(180, 6, 6);
     cursor: pointer;
   }
